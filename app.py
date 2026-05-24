@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 from data_prep import load_data
 
 app = Dash(__name__)
+server = app.server
 df = load_data()
 
 COLORS = {
